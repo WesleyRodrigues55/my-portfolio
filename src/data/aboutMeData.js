@@ -5,7 +5,7 @@ export const aboutMeData = [
 	},
 	{
 		id: 2,
-		bio: 'Nesse tempo, participei de diversos projetos,desde iniciativas acadêmicas, onde exerci papéis de liderança, até aplicações completas em produção. Trabalho com front-end usando React, Angular e TypeScript, e com back-end em Node.js, PHP, C#, .NET e Java (Spring Boot). Também tenho experiência com APIs REST, bancos de dados relacionais e NoSQL, versionamento com Git e boas práticas de código limpo e escalável.',
+		bio: 'Nesse tempo, participei de diversos projetos, desde iniciativas acadêmicas, onde exerci papéis de liderança, até aplicações completas em produção. Trabalho com front-end usando React, Angular e TypeScript, e com back-end em Node.js, PHP, C#, .NET e Java (Spring Boot). Também tenho experiência com APIs REST, bancos de dados relacionais e NoSQL, versionamento com Git e boas práticas de código limpo e escalável.',
 	},
 	{
 		id: 3,
