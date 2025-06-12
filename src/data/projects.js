@@ -96,7 +96,7 @@ export const projectsData = [
 		title: 'TuneLab Music',
 		category: 'Web Application',
 		img: TuneLabMusic,
-		link: 'https://github.com/WesleyRodrigues55/tunelab-music'
+		link: 'https://tunelab-music.vercel.app/'
 	},
 	{
 		id: 13,
