@@ -1478,3 +1478,15 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2.25rem;
   }
 }
+
+
+.flex-container {
+  display: flex;
+  justify-content: center; /* padrão: centralizado */
+}
+
+@media (min-width: 640px) {
+  .flex-container {
+    justify-content: flex-start; /* a partir de 640px: alinhado à esquerda */
+  }
+}

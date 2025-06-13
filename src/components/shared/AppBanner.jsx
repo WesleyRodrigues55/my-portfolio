@@ -1,5 +1,6 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import { FiArrowDownCircle } from 'react-icons/fi';
+import { FaWhatsapp } from "react-icons/fa";
 import developerLight from '../../images/developer.svg';
 import developerDark from '../../images/developer-dark.svg';
 import { motion } from 'framer-motion';
@@ -47,16 +48,19 @@ const AppBanner = () => {
 						duration: 0.9,
 						delay: 0.3,
 					}}
-					className="flex justify-center sm:block"
+					className="flex-container"
+					
 				>
 					<a
-						href="#projects"
-						className="font-general-medium flex justify-center items-center w-36 sm:w-48 mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-50 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-500 text-gray-500 hover:text-white duration-500"
+						href="https://wa.me/5511975699770"
+						className="w-48 px-4 font-general-medium flex px-2 justify-center items-center mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-600 text-white duration-300"
 						aria-label="Download Resume"
+						target='_blank' 
+						rel="noopener noreferrer"
 					>
-						<FiArrowDownCircle className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FiArrowDownCircle>
+						<FaWhatsapp  className="mr-2 sm:mr-3 h-5 w-5 sn:w-6 sm:h-6 duration-100"></FaWhatsapp >
 						<span className="text-sm sm:text-lg font-general-medium duration-100">
-							Ver mais
+							Entre em contato
 						</span>
 					</a>
 				</motion.div>
