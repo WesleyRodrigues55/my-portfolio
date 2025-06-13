@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
 import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
 import ProjectHomeHighlight from '../components/projects/projectHomeHighlight/ProjectHomeHighlight';
@@ -11,6 +14,19 @@ import { AboutMeProvider } from '../context/AboutMeContext';
 import { motion } from 'framer-motion';
 
 const Home = () => {
+
+	const location = useLocation();
+
+	useEffect(() => {
+		if (location.hash) {
+			const element = document.querySelector(location.hash);
+			if (element) {
+				element.scrollIntoView({ behavior: 'smooth' });
+			}
+		}
+	}, [location]);
+
+
 	return (
 		<div className="container mx-auto">
 			<AppBanner></AppBanner>
@@ -36,7 +52,7 @@ const Home = () => {
 			<AboutMeProvider>
 				<div className="text-center">
 					<p className="font-general-medium text-2xl sm:text-4xl mb-1 text-ternary-dark dark:text-ternary-light">
-						Portfólio de projetos
+						Sobre Mim
 					</p>
 				</div>
 				<motion.div

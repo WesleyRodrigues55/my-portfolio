@@ -91,20 +91,20 @@ const AppHeader = () => {
 							: 'hidden'
 					}
 				>
-					<a
-						href="#projects"
+					<Link
+						to="/#projects"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projetos
-					</a>
-					<a
-						href="#about"
+					</Link>
+					<Link
+						to="/#about"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="About Me"
 					>
 						Sobre Mim
-					</a>
+					</Link>
 					<div className="border-t-2 pt-3 sm:pt-0 sm:border-t-0 border-primary-light dark:border-secondary-dark">
 						<a href="https://wa.me/5511975699770" target='_blank' rel="noopener noreferrer">
 							<span
@@ -120,20 +120,20 @@ const AppHeader = () => {
 
 				{/* Header links large screen */}
 				<div className="font-general-medium hidden m-0 sm:ml-4 mt-5 sm:mt-3 sm:flex p-5 sm:p-0 justify-center items-center shadow-lg sm:shadow-none">
-					<a
-						href="#projects"
+					<Link
+						to="/#projects"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
 						aria-label="Projects"
 					>
 						Projetos
-					</a>
-					<a
-						href="#about"
+					</Link>
+					<Link
+						to="/#about"
 						className="block text-left text-lg text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2 border-t-2 pt-3 sm:pt-2 sm:border-t-0 border-primary-light dark:border-secondary-dark"
 						aria-label="About Me"
 					>
 						Sobre Mim
-					</a>
+					</Link>
 				</div>
 
 				{/* Header right section buttons */}
