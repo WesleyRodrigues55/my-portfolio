@@ -1,8 +1,6 @@
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
-import { FiArrowDownCircle } from 'react-icons/fi';
 import { FaWhatsapp } from "react-icons/fa";
-import developerLight from '../../images/developer.svg';
-import developerDark from '../../images/developer-dark.svg';
+import developer from '../../images/developer.svg';
 import { motion } from 'framer-motion';
 
 const AppBanner = () => {
@@ -54,7 +52,7 @@ const AppBanner = () => {
 					<a
 						href="https://wa.me/5511975699770"
 						className="w-48 px-4 font-general-medium flex px-2 justify-center items-center mt-12 mb-6 sm:mb-0 text-lg border border-indigo-200 dark:border-ternary-dark py-2.5 sm:py-3 shadow-lg rounded-lg bg-indigo-500 focus:ring-1 focus:ring-indigo-900 hover:bg-indigo-600 text-white duration-300"
-						aria-label="Download Resume"
+						aria-label="WhatsApp Link"
 						target='_blank' 
 						rel="noopener noreferrer"
 					>
@@ -73,9 +71,10 @@ const AppBanner = () => {
 			>
 				<img
 					src={
-						activeTheme === 'dark' ? developerLight : developerDark
+						activeTheme === 'dark' ? developer : developer
 					}
 					alt="Developer"
+					className='mx-auto'
 				/>
 			</motion.div>
 		</motion.section>
