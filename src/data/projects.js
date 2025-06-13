@@ -16,6 +16,7 @@ import ASKSystems from '../images/asksystems.jpg';
 export const projectsData = [
 	{
 		id: 1,
+		highlight: true,
 		title: 'Espaço Damasio',
 		category: 'Web Application',
 		img: EspacoDamasio,
@@ -23,6 +24,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
+		highlight: true,
 		title: 'App Delivery Ponto do Pastel',
 		category: 'Mobile Application',
 		img: PontoDoPastel,
@@ -30,6 +32,7 @@ export const projectsData = [
 	},
 	{
 		id: 3,
+		highlight: true,
 		title: 'Football Team Giveway App',
 		category: 'Mobile Application',
 		img: FootballTeamGivewayApp,
@@ -37,6 +40,7 @@ export const projectsData = [
 	},
 	{
 		id: 4,
+		highlight: false,
 		title: 'NLW Expert - Aplicativo de Pedidos',
 		category: 'Mobile Application',
 		img: NlwExpertAplicativoDePedidos,
@@ -44,6 +48,7 @@ export const projectsData = [
 	},
 	{
 		id: 5,
+		highlight: false,
 		title: 'University Template',
 		category: 'Web Application',
 		img: School,
@@ -51,6 +56,7 @@ export const projectsData = [
 	},
 	{
 		id: 6,
+		highlight: false,
 		title: 'MO Music Template',
 		category: 'Web Application',
 		img: MOMusic,
@@ -58,6 +64,7 @@ export const projectsData = [
 	},
 	{
 		id: 7,
+		highlight: false,
 		title: 'Planneybymarilia',
 		category: 'Web Application',
 		img: Plannerbymarilia,
@@ -65,6 +72,7 @@ export const projectsData = [
 	},
 	{
 		id: 8,
+		highlight: false,
 		title: 'Game News',
 		category: 'Web Application',
 		img: GameNews,
@@ -72,6 +80,7 @@ export const projectsData = [
 	},
 	{
 		id: 9,
+		highlight: false,
 		title: 'NLW Expert - Anotações por voz e texto',
 		category: 'Web Application',
 		img: AnotacoesPorVozETexto,
@@ -79,6 +88,7 @@ export const projectsData = [
 	},
 	{
 		id: 10,
+		highlight: false,
 		title: 'SerMais',
 		category: 'Web Application',
 		img: SerMais,
@@ -86,6 +96,7 @@ export const projectsData = [
 	},
 	{
 		id: 11,
+		highlight: false,
 		title: 'NLW JOURNEY - Agendador de viagens',
 		category: 'Web Application',
 		img: Planner,
@@ -93,6 +104,7 @@ export const projectsData = [
 	},
 	{
 		id: 12,
+		highlight: false,
 		title: 'TuneLab Music',
 		category: 'Web Application',
 		img: TuneLabMusic,
@@ -100,6 +112,7 @@ export const projectsData = [
 	},
 	{
 		id: 13,
+		highlight: false,
 		title: 'ASKSystems',
 		category: 'Web Application',
 		img: ASKSystems,

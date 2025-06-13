@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import AppBanner from '../components/shared/AppBanner';
-import ProjectsGrid from '../components/projects/ProjectsGrid';
+import ProjectHomeHighlight from '../components/projects/projectHomeHighlight/ProjectHomeHighlight';
 import { ProjectsProvider } from '../context/ProjectsContext';
 import Button from '../components/reusable/Button';
 
@@ -17,7 +17,7 @@ const Home = () => {
 
 		<div id='projects'>
 			<ProjectsProvider>
-				<ProjectsGrid></ProjectsGrid>
+				<ProjectHomeHighlight></ProjectHomeHighlight>
 			</ProjectsProvider>
 
 			<div className="mt-8 sm:mt-10 flex justify-center">
